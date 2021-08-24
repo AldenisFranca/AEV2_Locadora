@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro de Filme</title>
+    <meta charset= "utf-8">
+    <link rel="stylesheet" href="css/style_filme.css">
+</head>
+
+<body class = "corpo">
+
+ <div class = "alinhamentoTexto">
+
+  <a title = "logo" target="_self" href=PaginaInicial.html><img src="imagens/logo.png" width= "350px" height="130"/></a>
+
+  <div>
+    <a target="_self" href=Cadastros.html><img src = "imagens/esquerda.png" class="setas"/></a> 
+    <a target="_self" href=Usuário.html><img src = "imagens/direita.png" class="setas"/></a>
+  </div>
+
+  <form action="Cadastro.php" method="GET">
+    <h2>CADASTRO DE FILMES</h2><br>
+    
+    <b>Título:</b><br><br>
+    <input type="txt" name="Título do Filme"><br><br>
+
+    <b>Gênero:</b><br><br>
+    <select name="select">
+      <option value="valor0">Selecione o Gênero do Filme</option>
+      <option value="valor1">Ação</option>
+      <option value="valor2">Terror</option>
+      <option value="valor3">Romance</option>
+      <option value="valor4">Comédia</option>
+      <option value="valor5">Suspense</option>
+    </select><br><br>
+
+    <b>Prêmios:</b><br><br>
+    
+    <div>
+      <input type="checkbox" id="premio1" >
+      <label for="premio">Urso de Ouro</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="premio2" >
+      <label for="premio">Globo de Ouro</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="premio3" >
+      <label for="premio">Oscar</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="premio4" >
+      <label for="premio">MTV Movie & TV Awards</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="premio5" >
+      <label for="premio">Framboesa de Ouro</label>
+    </div><br>
+
+    <b>Descrição:</b><br><br>
+
+    <textarea id="Descrição" name="Descrição" rows="5" cols="33" required placeholder='Informe a descrição do filme'>
+    </textarea><br><br>
+
+    <a href=DadosGravados.html>
+    <input type="button" name="btn-enviar" value="Cadastrar"></a>
+    <input type="reset" value="Limpar">
+
+  </form>
+  </div> 
+</body>
+</html>

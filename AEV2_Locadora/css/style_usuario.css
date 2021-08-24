@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin-left: 5px;
+}
+
+.corpo{
+    width: 100wh;
+    margin: 0 auto;
+    align-items: center;
+    background-image: linear-gradient(1045deg,#070707,#A50104,#070707);
+    background-attachment: fixed;
+    padding: 0px 0px 0px 0px;
+    height: 100vh;
+    color: white;
+}
+
+.alinhamentoTexto{
+    text-align: left;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 72%;
+    background-image: url(../imagens/usuario.jpg);
+    background-position: right;
+    background-attachment: fixed;
+}
+
+label{
+    color: white;
+}
+
+input{
+    color: black;
+    margin-bottom: 5px;
+}
+
+fieldset{
+    color: white;
+    height: 340px;
+    width: 350px;
+}
+
+.fieldset2{
+    color: white;
+    height: 400px;
+    width: 350px;
+}
+
+.setas{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+}

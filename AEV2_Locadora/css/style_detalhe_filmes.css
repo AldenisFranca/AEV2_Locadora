@@ -1,0 +1,70 @@
+.corpo{
+    width: 97.5wh;
+    margin: 0 auto;
+    background-image: linear-gradient(1045deg,#070707,#A50104,#070707);
+    padding: 0 10px 0px 10px;
+    height: 100vh;
+}
+
+.alinhamentoTexto{
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: minhaFonte2;
+}
+
+.container{
+    margin: auto;
+    width: 560px;
+    display: table;    
+}
+
+.imagem{
+    display: table-cell;
+    float:left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.texto{
+    text-align:justify;
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.titulo{    
+    text-align:start;
+    float: left;
+    margin-top: 20px;
+}
+
+.sinopse{
+    float: left;
+    margin-top:-20px;
+    text-align:justify;
+    margin-bottom: 30px;
+ }
+
+.setas{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+@font-face {
+    font-family: minhaFonte2;
+    src: url(../fontes/WigendaTypewrite.ttf);
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: minhaFonte;
+    src: url(fontes/TypoSlabIrregularDemo.otf);
+}
+
+@font-face {
+    font-family: minhaFonte2;
+    src: url(fontes/WigendaTypewrite.ttf);
+}

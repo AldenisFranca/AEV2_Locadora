@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style_devolucao.css">
+
+<title>Devolução</title>
+</head>
+
+<body class = "corpo">
+
+	<div class = "alinhamentoTexto">
+
+		<a title = "logo" target="_self" href=PaginaInicial.html><img src="imagens/logo.png" width= "350px" height="130px"/></a>
+	  
+		<div>
+		  <a target="_self" href=PaginaInicial.html><img src = "imagens/esquerda.png" class="setas"/></a> 
+		  <a target="_self" href=Acervo.html><img src = "imagens/direita.png" class="setas"/></a>
+		</div>
+
+		<h2>DADOS DE DEVOLUÇÃO</h2>
+
+<fieldset>
+
+<form action="/action_page.php">
+<br>
+    <label><b>Clientes:</b></label>
+    <select id = "cliente"><br><br>
+      <option value = "SELECIONE"> Selecione um Cliente </option>
+      <option value = "Aldenis França"> Aldenis França </option>
+      <option value = "Emanuel Pereira"> Emanuel Pereira </option>
+      <option value = "Vanessa Carla"> Vanessa Carla </option>
+      <option value = "Victor Cavalcanti"> Victor Cavalcanti</option>
+    </select><br><br>
+    	
+  	<label for="datadev"><b>Data de Devolução:</b></label>
+  	<input type="date" id="datadev" date="datadev"><br><br>
+    
+    <label><b>Status de Devolução:</b></label><br>
+    <p><input type="radio" name="status" id= noprazo value="noprazo"> Dentro do prazo</p>
+    <p><input type="radio" name="status" id= atrasado value="atrasado"> Atrasado</p><br>
+        
+<label><b>Observações:</b></label><br><br>
+<textarea id = "txtAnswer"
+rows = "5"
+cols = "40">
+</textarea> 
+<br><br>
+  	<a href=DadosGravados.html><input type="button" value="Confirmar"></a>
+    <input type="reset" value="Limpar">
+</form>
+</fieldset>
+</body>
+</html>

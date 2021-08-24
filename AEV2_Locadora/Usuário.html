@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastro de Usuário</title>
+    <meta charset= "utf-8">
+    <link rel="stylesheet" href="css/style_usuario.css">
+</head>
+
+<body class = "corpo">
+
+  <div class = "alinhamentoTexto">
+ 
+   <a title = "logo" target="_self" href=PaginaInicial.html><img src="imagens/logo.png" width= "350px" height="130"/></a>
+ 
+   <div>
+     <a target="_self" href=Cadastros.html><img src = "imagens/esquerda.png" class="setas"/></a> 
+     <a target="_self" href=Filme.html><img src = "imagens/direita.png" class="setas"/></a>
+   </div>
+
+  <form action="Cadastro.php" method="GET">
+    <h2>CADASTRO DE USUÁRIOS</h2><br>
+      
+    <b id="colorID">Nome:</b><br><br>
+    <input id="nome" type="txt" name="Nome"><br><br>
+
+    <b id="colorID">Selecione seu sexo:</b><br><br>
+    <div>
+      <input type="radio" id="sexoM" name="Selecione seu sexo" value="sexo">
+      <label id="corletra" for="sexo">Masculino</label>
+    </div>
+    <div>
+      <input type="radio" id="sexoF" name="Selecione seu sexo" value="sexo">
+      <label id="corletra" for="dewey">Feminino</label>
+    </div>
+
+    <div>
+      <input type="radio" id="sexoNB" name="Selecione seu sexo" value="sexo">
+      <label id="corletra" for="louie">Não binário</label>
+    </div>
+
+    <div>
+      <input type="radio" id="sexoP" name="Selecione seu sexo" value="sexo">
+      <label id="corletra" for="each">Prefiro não informar</label>
+    </div><br>
+
+    <b id="colorID">Preferências de Gênero:</b><br><br>
+
+    <div>
+      <input type="checkbox" id="preferências1">
+      <label id="corletra" for="premio">Drama</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="preferências2">
+      <label id="corletra" for="preferências">Terror</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="preferências3">
+      <label id="corletra" for="preferências">Comédia</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="preferências4">
+      <label id="corletra" for="preferências">Suspense</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="preferências5">
+      <label id="corletra" for="preferências">Aventura</label>
+    </div><br>
+
+    <b id="colorID">Observações:</b><br><br>
+
+    <textarea id="Observações" name="Observações" 
+          rows="5" cols="33" required placeholder='Caso possua alguma observação, informe aqui'>
+              
+    </textarea><br><br>
+
+    <a href=DadosGravados.html>
+    <input class="negrito" id="botao" type="button" name="btn-enviar" value="Cadastrar"></a>
+    <input class="negrito" id="botao" type="reset" value="Limpar">
+
+  </form>
+  </div>
+</body>
+</html>
